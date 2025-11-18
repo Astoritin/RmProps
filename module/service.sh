@@ -181,9 +181,9 @@ get_status_desc() {
     md_count="$3"
     
     if [ "$md_enabled" = "true" ]; then
-        echo "✅${md_type} props (${md_count})"
+        echo "✅${md_type} (${md_count})"
     else
-        echo "❎${md_type} props removal disabled"
+        echo "❎${md_type} disabled"
     fi
 
 }
@@ -203,7 +203,7 @@ moddesc_update() {
     
     desc_parts="$custom_desc, $pif_desc"
     if [ "$removed_count" -gt 0 ]; then
-        desc_parts="$desc_parts, 📌${removed_count} props removed"
+        desc_parts="$desc_parts, 💼${removed_count} props removed"
     fi
     
     DESCRIPTION="[$desc_parts] $MOD_INTRO"
