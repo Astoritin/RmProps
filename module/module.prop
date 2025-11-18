@@ -1,0 +1,7 @@
+id=rmprops
+name=RmProps
+version=v1.0
+versionCode=1
+author=Astoritin
+description=Remove specific system properties.
+updateJson=https://raw.githubusercontent.com/Astoritin/RmProps/main/online/update.json
