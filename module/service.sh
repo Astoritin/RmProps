@@ -181,12 +181,12 @@ get_status_desc() {
     md_count="$3"
     
     if [ "$md_enabled" = "true" ]; then
-        echo "✅${md_type} props removal enabled (${md_count})]"
+        echo "✅${md_type}: ${md_count} prop(s) targeted"
     else
         echo "⛔${md_type} props removal disabled"
     fi
 
-}l
+}
 
 moddesc_update() {
 
