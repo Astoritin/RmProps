@@ -4,7 +4,7 @@ A Magisk module to remove specific system properties (included PiHooks/PixelProp
 #### Tips | 提示
 If you are looking for similar module to deal with PiHooks/PixelProps/PlayIntegrityFix related properties and only running once, see [RmPIFProps](https://github.com/Astoritin/RmPIFProps/).   
 如果你仅需要处理PiHooks/PixelProps/PlayIntegrityFix相关属性值的仅运行一次的模块，参阅[RmPIFProps](https://github.com/Astoritin/RmPIFProps/)。
-#### How to config? | 如何配置?
+### How to config? | 如何配置?
 Config file is loacted in `/data/adb/rmprops/rmprops.conf`. Open this file to config everything.   
 - **remove_props**: Remove custom properties in `props_to_remove`. `false` by default to disable this feature, `true` to enable this feature.
 - **remove_pi_props**: Remove PiHooks/PixelProps/PlayIntegrityFix related properties. `true` by default to enable this feature, `false` to disable this feature.
